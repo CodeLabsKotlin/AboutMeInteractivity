@@ -15,6 +15,16 @@
         android:textAlignment="center"
         style="@style/NameStyle" />
 
+    <EditText
+        android:id="@+id/nickname_edit"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nickname"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
     <ImageView
         android:id="@+id/star_image"
         android:layout_width="match_parent"
@@ -25,6 +35,14 @@
         tools:ignore="ImageContrastCheck" />
 
 
+    <ImageView
+        android:id="@+id/imgen2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/imagen_final"
+        app:srcCompat="@android:drawable/checkbox_on_background"
+        tools:ignore="ImageContrastCheck" />
 
     <ScrollView
         android:id="@+id/bio_scroll"
@@ -35,15 +53,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imgen2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:contentDescription="@string/imagen_final"
-                app:srcCompat="@android:drawable/checkbox_on_background"
-                tools:ignore="ImageContrastCheck"/>
 
             <TextView
                 android:id="@+id/bio_text"
