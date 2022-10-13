@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">AboutMeInteractivity</string>
+    <string name="app_name">AboutMeApp</string>
+    <string name="name">Aramis Fuster</string>
+    <string name="yellow_star">Yellow sta</string>
+    <string name="bio">En realidad llamada María Antonia Pérez Sánchez
+        \n\n Vidente, bruja y "máxima autoridad mundial en ocultismo" con casi 700 años de edad.
+        \n\n Estudió hasta tres carreras universitarias: Filosofía y Letras, Psicología e Historia
+        \n\n En su vida anterior fue un puma negro y una bruja renacentista quemada por fea
+        \n\n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        \n\nut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        \n\nlaboris nisi ut aliquip ex ea commodo consequat.
+    </string>
+    <string name="tick_label">tick</string>
+    <string name="imagen_final">imagen_final</string>
 </resources>

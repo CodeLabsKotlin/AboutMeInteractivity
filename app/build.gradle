@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.aboutmeinteractivity'
+    namespace 'com.example.aboutmeapp'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.aboutmeinteractivity"
+        applicationId "com.example.aboutmeapp"
         minSdk 21
         targetSdk 32
         versionCode 1
